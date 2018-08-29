@@ -1,24 +1,23 @@
 package com.example.demo;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@Slf4j
 public class DemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		final Logger logger = LoggerFactory.getLogger(DemoApplicationTests.class);
-		logger.debug("this is debug");
-		logger.trace("this is trace");
-		logger.info("this is info");
-		logger.warn("this is warn");
-		logger.error("this is error");
+		log.debug("this is debug");
+        log.trace("this is trace");
+        log.info("this is info");
+        log.warn("this is warn");
+        log.error("this is error");
 	}
 
 }
