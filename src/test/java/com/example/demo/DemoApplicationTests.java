@@ -17,7 +17,7 @@ public class DemoApplicationTests {
         log.trace("this is trace");
         log.info("this is info");
         log.warn("this is warn");
-        log.error("this is error");
+        log.error("this is error  ");
 	}
 
 }
