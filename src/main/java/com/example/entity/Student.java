@@ -29,6 +29,8 @@ public class Student implements Serializable {
     private String name;
     private int age;
     private String address;
+    private int className;
+    private double scors;
 
 
     public int stringtoint(String str){
